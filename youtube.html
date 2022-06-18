@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>YouTube.com Clone</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/general.css">
+  <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/video.css">
+  <link rel="stylesheet" href="./styles/sidebar.css">
+
+</head>
+
+<body>
+
+
+  <div class="header">
+
+    <div class="left-section">
+      <img class="hamburger-menu"
+        src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-13/icons/hamburger-menu.svg"
+        alt="">
+      <img class="youtube-logo"
+        src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-13/icons/youtube-logo.svg"
+        alt="">
+    </div>
+
+    <div class="middle-section">
+
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img class="search-icon"
+          src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-13/icons/search.svg"
+          alt="">
+          <div class="tooltip">Search</div>
+      </button>
+      <button class="voice-search-button">
+        <img class="voice-search-icon"
+          src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-13/icons/voice-search-icon.svg"
+          alt="">
+          <div class="tooltip">Search with your voice</div>
+      </button>
+    </div>
+    <div class="right-section">
+      
+      <div class="upload-icon-container">
+        <img class="upload-icon"
+      src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-13/icons/upload.svg"
+      alt="">
+        <div class="tooltip">Create</div>
+      </div>
+
+
+      <div class="youtube-app-icon-container">
+        <img class="youtube-apps-icon"
+        src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-13/icons/youtube-apps.svg"
+        alt="">
+        <div class="tooltip">Youtube Apps</div>
+      </div>
+
+      <div class="notifications-icon-container">
+        <img class="notifications-icon"
+          src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-13/icons/notifications.svg"
+          alt="">
+        <div class="notifications-count">
+          3
+        </div>
+        <div class="tooltip">Notifications</div>
+      </div>
+      <img class="current-user-picture"
+        src="https://yt3.ggpht.com/ytc/AKedOLSoPzZFsT6n9btrXJ7bYRTnfd1-aYKvre3LScrD=s88-c-k-c0x00ffffff-no-rj" alt="">
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <div class="sidebar-link">
+      <img src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-16/icons/home.svg" alt="">
+    <div>
+       Home
+    </div>
+    </div>
+    <div class="sidebar-link"><img src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-16/icons/explore.svg" alt="">
+    <div>
+      Explore
+    </div>
+  </div>
+    <div class="sidebar-link"><img src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-16/icons/subscriptions.svg" alt="">
+    <div>
+      Subscriptions
+    </div>
+  </div>
+    <div class="sidebar-link"><img src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-16/icons/originals.svg" alt="">
+    <div>
+      Orginals
+    </div>
+  </div>
+    <div class="sidebar-link"><img src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-16/icons/youtube-music.svg" alt="">
+    <div>
+      YT Music
+    </div>
+  </div>
+    <div class="sidebar-link"><img src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-16/icons/library.svg" alt="">
+    <div>
+      Library
+    </div>
+  </div>
+  </div>
+
+
+  <div class="video-grid">
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail"
+          src="https://i.ytimg.com/vi/DFkTEuEj7cM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDXBOWwJ--lO65llMCXV4aJB8VIGg">
+
+        <div class="video-time">
+          14:20
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture"
+            src="https://yt3.ggpht.com/ytc/AKedOLTH44qcuwThbL4gwV-m2KGErRiSjTEGdIyfqDbh_A=s68-c-k-c0x00ffffff-no-rj">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            "Sebastiante Velliyazhcha" | EP4 | Webseries | Fliq
+          </p>
+          <p class="video-author">
+            Karikku Fliq
+          </p>
+          <p class="video-stats">
+           229K views &#183; 1 hour ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail"
+          src="https://i.ytimg.com/vi/6fPj6mj-M_k/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDspmOmZmrm_TWoM8Mr8kHPjZp4NA">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture"
+            src="https://yt3.ggpht.com/ytc/AKedOLQjae6b5utMZa4thBe_Lj3b80UwxpctudgPiiVCGQ=s88-c-k-c0x00ffffff-no-rj">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            XPS 13 Plus - Cleaner And Faster Than A MacBook!
+          </p>
+          <p class="video-author">
+            Dave 2D
+          </p>
+          <p class="video-stats">
+            1.6M views &#183; 1 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail"
+          src="https://i.ytimg.com/vi/Rgx8dpiPwpA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDIx4reQFitSaZpDFZhTqkB8smEtg">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture"
+            src="https://yt3.ggpht.com/ytc/AKedOLTFLnUPOScnD78_Lz7YCbp0PXSpPgBTI4HA0pA8=s68-c-k-c0x00ffffff-no-rj">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            A day in the life of an Engineer working from home
+          </p>
+          <p class="video-author">
+          Joma Tech  
+          </p>
+          <p class="video-stats">
+            12M views &#183; 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail"
+          src="https://i.ytimg.com/vi/Rgx8dpiPwpA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDIx4reQFitSaZpDFZhTqkB8smEtg">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture"
+            src="https://yt3.ggpht.com/ytc/AKedOLTFLnUPOScnD78_Lz7YCbp0PXSpPgBTI4HA0pA8=s68-c-k-c0x00ffffff-no-rj">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            A day in the life of an Engineer working from home
+          </p>
+          <p class="video-author">
+          Joma Tech  
+          </p>
+          <p class="video-stats">
+            12M views &#183; 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail"
+          src="https://i.ytimg.com/vi/DFkTEuEj7cM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDXBOWwJ--lO65llMCXV4aJB8VIGg">
+
+        <div class="video-time">
+          14:20
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture"
+            src="https://yt3.ggpht.com/ytc/AKedOLTH44qcuwThbL4gwV-m2KGErRiSjTEGdIyfqDbh_A=s68-c-k-c0x00ffffff-no-rj">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            "Sebastiante Velliyazhcha" | EP4 | Webseries | Fliq
+          </p>
+          <p class="video-author">
+            Karikku Fliq
+          </p>
+          <p class="video-stats">
+           229K views &#183; 1 hour ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail"
+          src="https://i.ytimg.com/vi/6fPj6mj-M_k/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDspmOmZmrm_TWoM8Mr8kHPjZp4NA">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture"
+            src="https://yt3.ggpht.com/ytc/AKedOLQjae6b5utMZa4thBe_Lj3b80UwxpctudgPiiVCGQ=s88-c-k-c0x00ffffff-no-rj">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            XPS 13 Plus - Cleaner And Faster Than A MacBook!
+          </p>
+          <p class="video-author">
+            Dave 2D
+          </p>
+          <p class="video-stats">
+            1.6M views &#183; 1 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail"
+          src="https://i.ytimg.com/vi/6fPj6mj-M_k/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDspmOmZmrm_TWoM8Mr8kHPjZp4NA">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture"
+            src="https://yt3.ggpht.com/ytc/AKedOLQjae6b5utMZa4thBe_Lj3b80UwxpctudgPiiVCGQ=s88-c-k-c0x00ffffff-no-rj">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            XPS 13 Plus - Cleaner And Faster Than A MacBook!
+          </p>
+          <p class="video-author">
+            Dave 2D
+          </p>
+          <p class="video-stats">
+            1.6M views &#183; 1 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </div>
+</body>
+
+</html>
